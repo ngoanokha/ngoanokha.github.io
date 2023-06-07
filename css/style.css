@@ -83,6 +83,15 @@ ol {
 	margin-bottom: 70px;
 	text-align: center;
 }
+.header__logo {
+	transition: transform 0.3s, box-shadow 0.3s; /* Add transition animations */
+  }
+  
+  .header__logo:hover {
+	transform: scale(1.1); /* Increase the scale of the image on hover */
+	shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow effect on hover */
+
+  }
 
 .section-title.normal-title {
 	text-align: left;
@@ -415,6 +424,7 @@ ol {
 	top: 0;
 	opacity: 1;
 }
+
 
 .hero__slider.owl-carousel .owl-item.active .hero__item .hero__text h2 {
 	top: 0;
